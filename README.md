@@ -64,7 +64,7 @@ We're going to look more closely at how to assess regression models and diagnose
 
 We've looked at some ways to evaluate the overall performance of the model
 * <img src="https://render.githubusercontent.com/render/math?math=R^2"> (The proportion of variance in the outcome explained by the predictors.)
-* or <img src="https://render.githubusercontent.com/render/math?math=adjusted R^2"> 
+* <img src="https://render.githubusercontent.com/render/math?math=adjusted R^2"> 
 
 ### Jamovi part
 
