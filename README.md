@@ -63,7 +63,7 @@ We're going to look more closely at how to assess regression models and diagnose
 #### Assess the model overall
 
 We've looked at some ways to evaluate the overall performance of the model
-* <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+* <img src="https://render.githubusercontent.com/render/math?math=R^2">
 
 ### Jamovi part
 
