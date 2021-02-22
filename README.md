@@ -56,9 +56,14 @@ In statistics, we focus on four areas. (Summarized from the videos above.)
 3. outliers
 4. Statistical assumptions
 
-### Multiple Regression
+### Regression Diagnostics
 
-Multiple regression is used to predict the value of a continuous variable from predictor variables. Not only does it assess the strength and direction of the relationships between the predictor variables and the outcome variable when controlling for the other variables in the model. Multiple linear regression belongs to a family of tests known as parametric tests and has similar distributional assumptions.
+We're going to look more closely at how to assess regression models and diagnose problems.
+
+#### Assess the model overall
+
+We've looked at some ways to evaluate the overall performance of the model
+* <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
 
 ### Jamovi part
 
