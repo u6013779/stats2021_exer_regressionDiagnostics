@@ -66,6 +66,7 @@ We've looked at some ways to evaluate the overall performance of the model
 * <img src="https://render.githubusercontent.com/render/math?math=R^2"> (The proportion of variance in the outcome explained by the predictors.)
 * <img src="https://render.githubusercontent.com/render/math?math=adjusted R^2"> 
 * F-test (How much the model has improved prediction of outcome compared to inaccuracy of model.)
+* AIC to compare models (AIC bigger = worse fit)
 
 #### Assess individual predictors
 
@@ -88,7 +89,7 @@ We're going to talk some more about how to assess bias in linear models.
   * Normally distributed errors
   * Predictors are uncorrelated with external variables
   * Correct variable types
-  * No high multicollinearity
+  * No high multicollinearity (r > .8, VIF > 10 or tolerance < 1 = serious problem, VIF > 1 or tolerance < .2 = potential problem)
   * Non-zero variance for predictors
   * Cross-validate the model on a different sample
   * Shrinkage of adjusted R squared (Stein's formula)
