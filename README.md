@@ -94,6 +94,13 @@ We're going to talk some more about how to assess bias in linear models.
   * Shrinkage of adjusted R squared (Stein's formula)
   * Data splitting
 
+#### Sufficient sample size
+
+Was sample size sufficient for the size of effect? (Field 9.5)
+* large effect (25 - 77 participants)
+* medium effect (55 - 157 participants)
+* small effect (387 - 1043 participants)
+
 ### Jamovi part
 
 * Open Jamovi
