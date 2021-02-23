@@ -82,17 +82,17 @@ We're going to talk some more about how to assess bias in linear models.
   * Tools to assess how well model fits sample data. Should not be used as justification to remove cases.
   * You should examine both residuals and influence statistics.
 * Does the model generalize to other samples?
- * Additivity and linearity (linear relationships between outcome and predictors)
- * Independent errors (residuals uncorrelated, Durbin-Watson test if cases have order)
- * Homoscedasticity (variance of residuals is constant)
- * Normally distributed errors
- * Predictors are uncorrelated with external variables
- * Correct variable types
- * No high multicollinearity
- * Non-zero variance for predictors
- * Cross-validate the model on a different sample
- * Shrinkage of adjusted R squared (Stein's formula)
- * Data splitting
+  * Additivity and linearity (linear relationships between outcome and predictors)
+  * Independent errors (residuals uncorrelated, Durbin-Watson test if cases have order)
+  * Homoscedasticity (variance of residuals is constant)
+  * Normally distributed errors
+  * Predictors are uncorrelated with external variables
+  * Correct variable types
+  * No high multicollinearity
+  * Non-zero variance for predictors
+  * Cross-validate the model on a different sample
+  * Shrinkage of adjusted R squared (Stein's formula)
+  * Data splitting
 
 ### Jamovi part
 
