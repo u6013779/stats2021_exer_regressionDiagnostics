@@ -65,6 +65,34 @@ We're going to look more closely at how to assess regression models and diagnose
 We've looked at some ways to evaluate the overall performance of the model
 * <img src="https://render.githubusercontent.com/render/math?math=R^2"> (The proportion of variance in the outcome explained by the predictors.)
 * <img src="https://render.githubusercontent.com/render/math?math=adjusted R^2"> 
+* F-test (How much the model has improved prediction of outcome compared to inaccuracy of model.)
+
+#### Assess individual predictors
+
+We've looked at some ways to assess idividual predictors.
+* t-test
+* standardized coefficients
+
+#### Assess bias in linear models
+
+We're going to talk some more about how to assess bias in linear models.
+* Is the model influenced by a small number of cases?
+ * Outliers (studentized residuals > 3)
+ * Influential cases (Cook's distance > 1, leverage, Mahalanobis distance > chi-square cutoff, standardized DFBeta > 1, standardized DFFit, CVR)
+ * Tools to assess how well model fits sample data. Should not be used as justification to remove cases.
+ * You should examine both residuals and influence statistics.
+* Does the model generalize to other samples?
+ * Additivity and linearity (linear relationships between outcome and predictors)
+ * Independent errors (residuals uncorrelated, Durbin-Watson test if cases have order)
+ * Homoscedasticity (variance of residuals is constant)
+ * Normally distributed errors
+ * Predictors are uncorrelated with external variables
+ * Correct variable types
+ * No high multicollinearity
+ * Non-zero variance for predictors
+ * Cross-validate the model on a different sample
+ * Shrinkage of adjusted R squared (Stein's formula)
+ * Data splitting
 
 ### Jamovi part
 
