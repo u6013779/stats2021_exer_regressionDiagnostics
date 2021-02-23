@@ -77,10 +77,10 @@ We've looked at some ways to assess idividual predictors.
 
 We're going to talk some more about how to assess bias in linear models.
 * Is the model influenced by a small number of cases?
- * Outliers (studentized residuals > 3)
- * Influential cases (Cook's distance > 1, leverage, Mahalanobis distance > chi-square cutoff, standardized DFBeta > 1, standardized DFFit, CVR)
- * Tools to assess how well model fits sample data. Should not be used as justification to remove cases.
- * You should examine both residuals and influence statistics.
+  * Outliers (studentized residuals > 3)
+  * Influential cases (Cook's distance > 1, leverage, Mahalanobis distance > chi-square cutoff, standardized DFBeta > 1, standardized DFFit, CVR)
+  * Tools to assess how well model fits sample data. Should not be used as justification to remove cases.
+  * You should examine both residuals and influence statistics.
 * Does the model generalize to other samples?
  * Additivity and linearity (linear relationships between outcome and predictors)
  * Independent errors (residuals uncorrelated, Durbin-Watson test if cases have order)
