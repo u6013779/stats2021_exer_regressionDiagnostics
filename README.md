@@ -65,7 +65,6 @@ We're going to look more closely at how to assess regression models and diagnose
 We've looked at some ways to evaluate the overall performance of the model
 * <img src="https://render.githubusercontent.com/render/math?math=R^2"> (The proportion of variance in the outcome explained by the predictors.)
 * <img src="https://render.githubusercontent.com/render/math?math=adjusted R^2"> 
-* R^2
 * F-test (How much the model has improved prediction of outcome compared to inaccuracy of model.)
 * AIC to compare models (AIC bigger = worse fit)
 
